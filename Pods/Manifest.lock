@@ -1,0 +1,58 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - HandyJSON (5.0.1)
+  - IQKeyboardManager (6.5.4)
+  - Kingfisher (4.10.1)
+  - Masonry (1.1.0)
+  - MJRefresh (3.3.1)
+  - SVProgressHUD (2.1.2)
+  - SwiftEventBus (5.0.0)
+
+DEPENDENCIES:
+  - AFNetworking
+  - HandyJSON
+  - IQKeyboardManager
+  - Kingfisher
+  - Masonry
+  - MJRefresh
+  - SVProgressHUD
+  - SwiftEventBus (~> 5.0.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - HandyJSON
+    - IQKeyboardManager
+    - Kingfisher
+    - Masonry
+    - MJRefresh
+    - SVProgressHUD
+    - SwiftEventBus
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  HandyJSON: d45b8415c501e3affc59ca9762c1197ff0feb646
+  IQKeyboardManager: 72b359cd7e777e3a984cedbe05f8da45320cbb63
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: eeda70fbf0ad277f3178cef1cd0c3532591d6237
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  SwiftEventBus: b30f617a6aca5a9336464b4d3f5931034762f2d5
+
+PODFILE CHECKSUM: aa4ad5e9bc810942849bb29d60c088569e4a17ad
+
+COCOAPODS: 1.9.3

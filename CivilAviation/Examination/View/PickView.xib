@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PickView" customModule="NIM" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.59999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AMc-bf-je7">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Yz-Eh-hwv">
+                    <rect key="frame" x="0.0" y="451" width="375" height="216"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="216" id="W9Q-Nl-CIO"/>
+                    </constraints>
+                </pickerView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nT3-PB-Ydo">
+                    <rect key="frame" x="325" y="451" width="50" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="Kbu-5g-f6r"/>
+                        <constraint firstAttribute="width" constant="50" id="jkw-Zm-CM3"/>
+                    </constraints>
+                    <state key="normal" title="确定">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="selected" destination="iN0-l3-epB" eventType="touchUpInside" id="9Sl-CK-zpJ"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="1Yz-Eh-hwv" secondAttribute="trailing" id="33k-rs-075"/>
+                <constraint firstItem="AMc-bf-je7" firstAttribute="trailing" secondItem="iN0-l3-epB" secondAttribute="trailing" id="C0Q-mD-M63"/>
+                <constraint firstItem="nT3-PB-Ydo" firstAttribute="top" secondItem="1Yz-Eh-hwv" secondAttribute="top" id="HRI-Mg-Hf8"/>
+                <constraint firstItem="AMc-bf-je7" firstAttribute="bottom" secondItem="iN0-l3-epB" secondAttribute="bottom" id="JPu-EW-eWi"/>
+                <constraint firstItem="AMc-bf-je7" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ZEp-1d-glZ"/>
+                <constraint firstItem="AMc-bf-je7" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ey9-f0-9Xe"/>
+                <constraint firstAttribute="bottom" secondItem="1Yz-Eh-hwv" secondAttribute="bottom" id="joa-hq-yPN"/>
+                <constraint firstItem="1Yz-Eh-hwv" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="mm9-q4-oRU"/>
+                <constraint firstItem="nT3-PB-Ydo" firstAttribute="trailing" secondItem="1Yz-Eh-hwv" secondAttribute="trailing" id="tCH-fd-gZY"/>
+            </constraints>
+            <connections>
+                <outlet property="pick" destination="1Yz-Eh-hwv" id="uyk-a9-pQQ"/>
+            </connections>
+        </view>
+    </objects>
+</document>

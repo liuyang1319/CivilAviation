@@ -1,0 +1,6 @@
+module Pods_CivilAviation {
+  umbrella header "Pods-CivilAviation-umbrella.h"
+
+  export *
+  module * { export * }
+}

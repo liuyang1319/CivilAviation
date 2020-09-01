@@ -1,0 +1,1491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12D9898A51A3AB9C8F13D889 /* libPods-CivilAviation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09E2E5EF69598A80D4A647E9 /* libPods-CivilAviation.a */; };
+		6D10AC2023AB72AA00216D1E /* LYNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D10AC1F23AB72AA00216D1E /* LYNavigationController.swift */; };
+		6D10AC2923AB72E100216D1E /* BaseCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D10AC2223AB72E100216D1E /* BaseCollectionCell.swift */; };
+		6D10AC2A23AB72E100216D1E /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D10AC2323AB72E100216D1E /* BaseViewModel.swift */; };
+		6D10AC2B23AB72E100216D1E /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D10AC2423AB72E100216D1E /* BaseController.swift */; };
+		6D10AC2D23AB72E100216D1E /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D10AC2623AB72E100216D1E /* BaseModel.swift */; };
+		6D10AC2E23AB72E100216D1E /* BaseFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D10AC2723AB72E100216D1E /* BaseFlowLayout.swift */; };
+		6D10AC2F23AB72E100216D1E /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D10AC2823AB72E100216D1E /* BaseView.swift */; };
+		6D10AC3123AB730C00216D1E /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D10AC3023AB730C00216D1E /* BaseCell.swift */; };
+		6D10AC4423AB734800216D1E /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D10AC3323AB734800216D1E /* UIFont+Extension.swift */; };
+		6D10AC4523AB734800216D1E /* String+getFirstLetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D10AC3423AB734800216D1E /* String+getFirstLetter.swift */; };
+		6D10AC4623AB734800216D1E /* CALayer+XibConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D10AC3523AB734800216D1E /* CALayer+XibConfiguration.swift */; };
+		6D10AC4823AB734800216D1E /* UIImage+Compound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D10AC3723AB734800216D1E /* UIImage+Compound.swift */; };
+		6D10AC4923AB734800216D1E /* Array+Extrnsion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D10AC3823AB734800216D1E /* Array+Extrnsion.swift */; };
+		6D10AC4B23AB734800216D1E /* UIImage+Orientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D10AC3A23AB734800216D1E /* UIImage+Orientation.m */; };
+		6D10AC4C23AB734800216D1E /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D10AC3B23AB734800216D1E /* String+Extension.swift */; };
+		6D10AC4D23AB734800216D1E /* UIImage+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D10AC3C23AB734800216D1E /* UIImage+Color.swift */; };
+		6D10AC4F23AB734800216D1E /* Color-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D10AC3E23AB734800216D1E /* Color-Extension.swift */; };
+		6D10AC5123AB734800216D1E /* Data+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D10AC4023AB734800216D1E /* Data+MD5.swift */; };
+		6D10AC5E23AB740200216D1E /* NetworkRequestErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D10AC5423AB740100216D1E /* NetworkRequestErrorView.swift */; };
+		6D10AC5F23AB740200216D1E /* Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D10AC5523AB740100216D1E /* Tool.swift */; };
+		6D10AC6023AB740200216D1E /* Customs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D10AC5623AB740100216D1E /* Customs.swift */; };
+		6D10AC6223AB740200216D1E /* VideoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D10AC5823AB740100216D1E /* VideoManager.swift */; };
+		6D10AC6323AB740200216D1E /* HttpError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D10AC5923AB740100216D1E /* HttpError.swift */; };
+		6D10AC6423AB740200216D1E /* DeviceTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D10AC5A23AB740100216D1E /* DeviceTool.swift */; };
+		6D10AC6523AB740200216D1E /* NetworkRequestErrorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D10AC5B23AB740100216D1E /* NetworkRequestErrorView.xib */; };
+		6D10AC6623AB740200216D1E /* AFHttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D10AC5C23AB740100216D1E /* AFHttpRequest.swift */; };
+		6D10AC6723AB740200216D1E /* CBToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D10AC5D23AB740100216D1E /* CBToast.swift */; };
+		6D10AC6D23AB748D00216D1E /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D10AC6923AB748D00216D1E /* Constant.swift */; };
+		6D10AC6E23AB748D00216D1E /* EventConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D10AC6A23AB748D00216D1E /* EventConstant.swift */; };
+		6D10AC6F23AB748D00216D1E /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D10AC6B23AB748D00216D1E /* String.swift */; };
+		6D10AC7023AB748D00216D1E /* KeyConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D10AC6C23AB748D00216D1E /* KeyConstant.swift */; };
+		6D16262823B9C900007043A9 /* LYNotificationSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D16262723B9C900007043A9 /* LYNotificationSelectView.swift */; };
+		6D16262A23B9C91F007043A9 /* LYNotificationSelectView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D16262923B9C91F007043A9 /* LYNotificationSelectView.xib */; };
+		6D16262C23B9CD39007043A9 /* BaseSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D16262B23B9CD39007043A9 /* BaseSelectView.swift */; };
+		6D16263023B9E015007043A9 /* LYNotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D16262E23B9E015007043A9 /* LYNotificationCell.swift */; };
+		6D16263123B9E015007043A9 /* LYNotificationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D16262F23B9E015007043A9 /* LYNotificationCell.xib */; };
+		6D16263323B9E2D7007043A9 /* LYNotificationDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D16263223B9E2D7007043A9 /* LYNotificationDetailController.swift */; };
+		6D16263723B9E333007043A9 /* WebController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D16263623B9E333007043A9 /* WebController.swift */; };
+		6D16263B23B9E41A007043A9 /* LYPersonalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D16263A23B9E41A007043A9 /* LYPersonalController.swift */; };
+		6D16263F23B9E47F007043A9 /* LYPersonalInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D16263D23B9E47F007043A9 /* LYPersonalInfoCell.swift */; };
+		6D16264023B9E47F007043A9 /* LYPersonalInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D16263E23B9E47F007043A9 /* LYPersonalInfoCell.xib */; };
+		6D16264323B9E700007043A9 /* LYPersonalItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D16264123B9E700007043A9 /* LYPersonalItemCell.swift */; };
+		6D16264423B9E700007043A9 /* LYPersonalItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D16264223B9E700007043A9 /* LYPersonalItemCell.xib */; };
+		6D16264623B9EE9B007043A9 /* LYPersonalModifyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D16264523B9EE9B007043A9 /* LYPersonalModifyController.swift */; };
+		6D16264923B9EFE5007043A9 /* LYPersonalCertificateUploadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D16264723B9EFE5007043A9 /* LYPersonalCertificateUploadCell.swift */; };
+		6D16264A23B9EFE5007043A9 /* LYPersonalCertificateUploadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D16264823B9EFE5007043A9 /* LYPersonalCertificateUploadCell.xib */; };
+		6D32EC6A23B600B300AAE1D3 /* LYExaminationPlanCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D32EC6823B600B300AAE1D3 /* LYExaminationPlanCell.swift */; };
+		6D32EC6B23B600B300AAE1D3 /* LYExaminationPlanCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D32EC6923B600B300AAE1D3 /* LYExaminationPlanCell.xib */; };
+		6D32EC6E23B601F100AAE1D3 /* LYExaminationRegistrationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D32EC6C23B601F100AAE1D3 /* LYExaminationRegistrationCell.swift */; };
+		6D32EC6F23B601F100AAE1D3 /* LYExaminationRegistrationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D32EC6D23B601F100AAE1D3 /* LYExaminationRegistrationCell.xib */; };
+		6D32EC7323B6091800AAE1D3 /* LYNotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D32EC7223B6091800AAE1D3 /* LYNotificationController.swift */; };
+		6D3AB31623B467C600964FB1 /* Appdelegate+Launch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3AB31523B467C600964FB1 /* Appdelegate+Launch.swift */; };
+		6D3AB31D23B4696500964FB1 /* LYTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3AB31C23B4696500964FB1 /* LYTabbarController.swift */; };
+		6D3AB31F23B469CF00964FB1 /* LYLoginTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3AB31E23B469CF00964FB1 /* LYLoginTool.swift */; };
+		6D3AB32223B469ED00964FB1 /* LYLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3AB32023B469ED00964FB1 /* LYLoginController.swift */; };
+		6D3AB32323B469ED00964FB1 /* LYLoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D3AB32123B469ED00964FB1 /* LYLoginController.xib */; };
+		6D3AB32723B4850F00964FB1 /* LYLicenseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3AB32623B4850F00964FB1 /* LYLicenseController.swift */; };
+		6D3AB32B23B4854900964FB1 /* LYLicenseTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3AB32923B4854900964FB1 /* LYLicenseTitleCell.swift */; };
+		6D3AB32C23B4854900964FB1 /* LYLicenseTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D3AB32A23B4854900964FB1 /* LYLicenseTitleCell.xib */; };
+		6D48629B24230970002FC696 /* LYAboutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D48629924230970002FC696 /* LYAboutController.swift */; };
+		6D48629C24230970002FC696 /* LYAboutController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D48629A24230970002FC696 /* LYAboutController.xib */; };
+		6D48629E24230EBA002FC696 /* LYRegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D48629D24230EBA002FC696 /* LYRegistrationView.swift */; };
+		6D4862A024230EC3002FC696 /* LYRegistrationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D48629F24230EC3002FC696 /* LYRegistrationView.xib */; };
+		6D4862A22423151B002FC696 /* LYExaminationSubjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4862A12423151B002FC696 /* LYExaminationSubjectView.swift */; };
+		6D4862A424231522002FC696 /* LYExaminationSubjectView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D4862A324231522002FC696 /* LYExaminationSubjectView.xib */; };
+		6D4862A92423203F002FC696 /* PickView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D4862A72423203F002FC696 /* PickView.xib */; };
+		6D4862AA2423203F002FC696 /* PickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4862A82423203F002FC696 /* PickView.swift */; };
+		6D4862AD24232350002FC696 /* LYExaminationSubjectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4862AB24232350002FC696 /* LYExaminationSubjectCell.swift */; };
+		6D4862AE24232350002FC696 /* LYExaminationSubjectCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D4862AC24232350002FC696 /* LYExaminationSubjectCell.xib */; };
+		6D5DF88C2419ED8A006A63A2 /* GalleryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5DF88B2419ED8A006A63A2 /* GalleryView.m */; };
+		6D5DF8912419EDDC006A63A2 /* ZoomScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5DF8902419EDDC006A63A2 /* ZoomScrollView.m */; };
+		6D6F880424175ACD009830E9 /* LYTrainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6F880324175ACD009830E9 /* LYTrainModel.swift */; };
+		6D6F880724176FDF009830E9 /* LYExaminationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6F880624176FDF009830E9 /* LYExaminationViewModel.swift */; };
+		6D6F880A2417713D009830E9 /* LYExaminationPlanModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6F88092417713D009830E9 /* LYExaminationPlanModel.swift */; };
+		6D6F880D2418AFA0009830E9 /* LYNotificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6F880C2418AFA0009830E9 /* LYNotificationViewModel.swift */; };
+		6D6F88102418B0C9009830E9 /* LYNotificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6F880F2418B0C9009830E9 /* LYNotificationModel.swift */; };
+		6D6F88132418B4E2009830E9 /* LYPersonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6F88122418B4E2009830E9 /* LYPersonViewModel.swift */; };
+		6D6F88162418B54E009830E9 /* LYPersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6F88152418B54E009830E9 /* LYPersonModel.swift */; };
+		6D6F88182418B9B2009830E9 /* LYExamModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6F88172418B9B2009830E9 /* LYExamModel.swift */; };
+		6D6F881A2418BD42009830E9 /* LYDishonestysModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6F88192418BD42009830E9 /* LYDishonestysModel.swift */; };
+		6DA05E3623BAF52200D4BF98 /* LYPermissionTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA05E3523BAF52200D4BF98 /* LYPermissionTool.swift */; };
+		6DA05E3B23BB00A100D4BF98 /* LYPersonalSubmitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA05E3A23BB00A100D4BF98 /* LYPersonalSubmitView.swift */; };
+		6DA05E3D23BB00AD00D4BF98 /* LYPersonalSubmitView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DA05E3C23BB00AD00D4BF98 /* LYPersonalSubmitView.xib */; };
+		6DA05E3F23BB242F00D4BF98 /* LYPersonalGradeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA05E3E23BB242F00D4BF98 /* LYPersonalGradeController.swift */; };
+		6DA05E4223BB246800D4BF98 /* LYPersonalGradeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA05E4023BB246800D4BF98 /* LYPersonalGradeCell.swift */; };
+		6DA05E4323BB246800D4BF98 /* LYPersonalGradeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DA05E4123BB246800D4BF98 /* LYPersonalGradeCell.xib */; };
+		6DA05E4523BB28CF00D4BF98 /* LYPersonalDishnoestyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA05E4423BB28CF00D4BF98 /* LYPersonalDishnoestyController.swift */; };
+		6DA05E4823BB291A00D4BF98 /* LYPersonalDishonestyTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA05E4623BB291A00D4BF98 /* LYPersonalDishonestyTitleCell.swift */; };
+		6DA05E4923BB291A00D4BF98 /* LYPersonalDishonestyTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DA05E4723BB291A00D4BF98 /* LYPersonalDishonestyTitleCell.xib */; };
+		6DA05E4C23BB2B4B00D4BF98 /* LYPersonalDishonestyInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA05E4A23BB2B4B00D4BF98 /* LYPersonalDishonestyInfoCell.swift */; };
+		6DA05E4D23BB2B4B00D4BF98 /* LYPersonalDishonestyInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DA05E4B23BB2B4B00D4BF98 /* LYPersonalDishonestyInfoCell.xib */; };
+		6DA05E5023BB2DD500D4BF98 /* LYPersonalDishonestyQRCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA05E4E23BB2DD500D4BF98 /* LYPersonalDishonestyQRCell.swift */; };
+		6DA05E5123BB2DD500D4BF98 /* LYPersonalDishonestyQRCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DA05E4F23BB2DD500D4BF98 /* LYPersonalDishonestyQRCell.xib */; };
+		6DD10DBC2415DA8C00C07717 /* LYLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD10DBB2415DA8C00C07717 /* LYLoginViewModel.swift */; };
+		6DD10DC42415E83D00C07717 /* LYLicenseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD10DC32415E83D00C07717 /* LYLicenseViewModel.swift */; };
+		6DD10DC72415EC3300C07717 /* LYLicenseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD10DC62415EC3300C07717 /* LYLicenseModel.swift */; };
+		6DD10DCB2415F4DF00C07717 /* LYPlaneTypeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD10DCA2415F4DF00C07717 /* LYPlaneTypeModel.swift */; };
+		6DD10DD0241623DC00C07717 /* LYExperienceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD10DCF241623DC00C07717 /* LYExperienceViewModel.swift */; };
+		6DD10DD32416291C00C07717 /* LYMaintenanceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD10DD22416291C00C07717 /* LYMaintenanceModel.swift */; };
+		6DDCBB3823AB6F11003ADD0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDCBB3723AB6F11003ADD0E /* AppDelegate.swift */; };
+		6DDCBB3D23AB6F11003ADD0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DDCBB3B23AB6F11003ADD0E /* Main.storyboard */; };
+		6DDCBB3F23AB6F12003ADD0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DDCBB3E23AB6F12003ADD0E /* Assets.xcassets */; };
+		6DDCBB4223AB6F12003ADD0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DDCBB4023AB6F12003ADD0E /* LaunchScreen.storyboard */; };
+		6DDCBB4D23AB6F12003ADD0E /* CivilAviationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDCBB4C23AB6F12003ADD0E /* CivilAviationTests.swift */; };
+		6DDCBB5823AB6F12003ADD0E /* CivilAviationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDCBB5723AB6F12003ADD0E /* CivilAviationUITests.swift */; };
+		6DF1C00C23B4AADB00C91D21 /* LYLicensePersonCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF1C00A23B4AADB00C91D21 /* LYLicensePersonCardCell.swift */; };
+		6DF1C00D23B4AADB00C91D21 /* LYLicensePersonCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DF1C00B23B4AADB00C91D21 /* LYLicensePersonCardCell.xib */; };
+		6DF1C01023B4B1A700C91D21 /* LYLicenseHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF1C00F23B4B1A700C91D21 /* LYLicenseHeaderView.swift */; };
+		6DF1C01223B4B26E00C91D21 /* LYLicenseHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DF1C01123B4B26E00C91D21 /* LYLicenseHeaderView.xib */; };
+		6DF1C01523B4B54700C91D21 /* LYLicenseTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF1C01323B4B54700C91D21 /* LYLicenseTypeCell.swift */; };
+		6DF1C01623B4B54700C91D21 /* LYLicenseTypeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DF1C01423B4B54700C91D21 /* LYLicenseTypeCell.xib */; };
+		6DF1C01923B4B73E00C91D21 /* LYLicenseAircraftTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF1C01723B4B73E00C91D21 /* LYLicenseAircraftTypeCell.swift */; };
+		6DF1C01A23B4B73E00C91D21 /* LYLicenseAircraftTypeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DF1C01823B4B73E00C91D21 /* LYLicenseAircraftTypeCell.xib */; };
+		6DF1C01C23B4B8E700C91D21 /* LYAircraftTypeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF1C01B23B4B8E700C91D21 /* LYAircraftTypeController.swift */; };
+		6DF1C01F23B4B93F00C91D21 /* LYAircaftTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF1C01D23B4B93F00C91D21 /* LYAircaftTypeCell.swift */; };
+		6DF1C02023B4B93F00C91D21 /* LYAircaftTypeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DF1C01E23B4B93F00C91D21 /* LYAircaftTypeCell.xib */; };
+		6DF1C02523B4BDA400C91D21 /* LYQRControlelr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF1C02323B4BDA400C91D21 /* LYQRControlelr.swift */; };
+		6DF1C02623B4BDA400C91D21 /* LYQRControlelr.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DF1C02423B4BDA400C91D21 /* LYQRControlelr.xib */; };
+		6DF1C02C23B59EB600C91D21 /* LYExperienceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF1C02B23B59EB600C91D21 /* LYExperienceController.swift */; };
+		6DF1C02F23B59F5F00C91D21 /* LYExperienceSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF1C02E23B59F5F00C91D21 /* LYExperienceSelectView.swift */; };
+		6DF1C03123B59F7200C91D21 /* LYExperienceSelectView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DF1C03023B59F7200C91D21 /* LYExperienceSelectView.xib */; };
+		6DF1C03423B5A32100C91D21 /* LYExperienceEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF1C03323B5A32100C91D21 /* LYExperienceEnum.swift */; };
+		6DF1C03823B5B83600C91D21 /* LYExperienceMaintenanceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF1C03623B5B83600C91D21 /* LYExperienceMaintenanceCell.swift */; };
+		6DF1C03923B5B83600C91D21 /* LYExperienceMaintenanceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DF1C03723B5B83600C91D21 /* LYExperienceMaintenanceCell.xib */; };
+		6DF1C03C23B5BA4700C91D21 /* LYExperienceTrainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF1C03A23B5BA4700C91D21 /* LYExperienceTrainCell.swift */; };
+		6DF1C03D23B5BA4700C91D21 /* LYExperienceTrainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DF1C03B23B5BA4700C91D21 /* LYExperienceTrainCell.xib */; };
+		6DF1C04123B5E50A00C91D21 /* LYExaminationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF1C04023B5E50A00C91D21 /* LYExaminationController.swift */; };
+		6DF1C04423B5E6C200C91D21 /* LYExaminationSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF1C04323B5E6C200C91D21 /* LYExaminationSelectView.swift */; };
+		6DF1C04623B5E6D600C91D21 /* LYExaminationSelectView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DF1C04523B5E6D600C91D21 /* LYExaminationSelectView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6DDCBB4923AB6F12003ADD0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DDCBB2C23AB6F11003ADD0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DDCBB3323AB6F11003ADD0E;
+			remoteInfo = CivilAviation;
+		};
+		6DDCBB5423AB6F12003ADD0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DDCBB2C23AB6F11003ADD0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DDCBB3323AB6F11003ADD0E;
+			remoteInfo = CivilAviation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09E2E5EF69598A80D4A647E9 /* libPods-CivilAviation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CivilAviation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C546035BE4D31C1C8BD6D8C /* Pods-CivilAviation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CivilAviation.debug.xcconfig"; path = "Target Support Files/Pods-CivilAviation/Pods-CivilAviation.debug.xcconfig"; sourceTree = "<group>"; };
+		6D10AC1F23AB72AA00216D1E /* LYNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYNavigationController.swift; sourceTree = "<group>"; };
+		6D10AC2223AB72E100216D1E /* BaseCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCollectionCell.swift; sourceTree = "<group>"; };
+		6D10AC2323AB72E100216D1E /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		6D10AC2423AB72E100216D1E /* BaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		6D10AC2623AB72E100216D1E /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		6D10AC2723AB72E100216D1E /* BaseFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseFlowLayout.swift; sourceTree = "<group>"; };
+		6D10AC2823AB72E100216D1E /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		6D10AC3023AB730C00216D1E /* BaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
+		6D10AC3323AB734800216D1E /* UIFont+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		6D10AC3423AB734800216D1E /* String+getFirstLetter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+getFirstLetter.swift"; sourceTree = "<group>"; };
+		6D10AC3523AB734800216D1E /* CALayer+XibConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+XibConfiguration.swift"; sourceTree = "<group>"; };
+		6D10AC3723AB734800216D1E /* UIImage+Compound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Compound.swift"; sourceTree = "<group>"; };
+		6D10AC3823AB734800216D1E /* Array+Extrnsion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extrnsion.swift"; sourceTree = "<group>"; };
+		6D10AC3A23AB734800216D1E /* UIImage+Orientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Orientation.m"; sourceTree = "<group>"; };
+		6D10AC3B23AB734800216D1E /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		6D10AC3C23AB734800216D1E /* UIImage+Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Color.swift"; sourceTree = "<group>"; };
+		6D10AC3E23AB734800216D1E /* Color-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color-Extension.swift"; sourceTree = "<group>"; };
+		6D10AC4023AB734800216D1E /* Data+MD5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+MD5.swift"; sourceTree = "<group>"; };
+		6D10AC4123AB734800216D1E /* UIImage+Orientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Orientation.h"; sourceTree = "<group>"; };
+		6D10AC5423AB740100216D1E /* NetworkRequestErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRequestErrorView.swift; sourceTree = "<group>"; };
+		6D10AC5523AB740100216D1E /* Tool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tool.swift; sourceTree = "<group>"; };
+		6D10AC5623AB740100216D1E /* Customs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customs.swift; sourceTree = "<group>"; };
+		6D10AC5823AB740100216D1E /* VideoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoManager.swift; sourceTree = "<group>"; };
+		6D10AC5923AB740100216D1E /* HttpError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpError.swift; sourceTree = "<group>"; };
+		6D10AC5A23AB740100216D1E /* DeviceTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceTool.swift; sourceTree = "<group>"; };
+		6D10AC5B23AB740100216D1E /* NetworkRequestErrorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NetworkRequestErrorView.xib; sourceTree = "<group>"; };
+		6D10AC5C23AB740100216D1E /* AFHttpRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFHttpRequest.swift; sourceTree = "<group>"; };
+		6D10AC5D23AB740100216D1E /* CBToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBToast.swift; sourceTree = "<group>"; };
+		6D10AC6923AB748D00216D1E /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		6D10AC6A23AB748D00216D1E /* EventConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventConstant.swift; sourceTree = "<group>"; };
+		6D10AC6B23AB748D00216D1E /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		6D10AC6C23AB748D00216D1E /* KeyConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyConstant.swift; sourceTree = "<group>"; };
+		6D10AC7C23AB761600216D1E /* CivilAviation-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CivilAviation-Bridging-Header.h"; sourceTree = "<group>"; };
+		6D16262723B9C900007043A9 /* LYNotificationSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYNotificationSelectView.swift; sourceTree = "<group>"; };
+		6D16262923B9C91F007043A9 /* LYNotificationSelectView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYNotificationSelectView.xib; sourceTree = "<group>"; };
+		6D16262B23B9CD39007043A9 /* BaseSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseSelectView.swift; sourceTree = "<group>"; };
+		6D16262E23B9E015007043A9 /* LYNotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYNotificationCell.swift; sourceTree = "<group>"; };
+		6D16262F23B9E015007043A9 /* LYNotificationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYNotificationCell.xib; sourceTree = "<group>"; };
+		6D16263223B9E2D7007043A9 /* LYNotificationDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYNotificationDetailController.swift; sourceTree = "<group>"; };
+		6D16263623B9E333007043A9 /* WebController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebController.swift; sourceTree = "<group>"; };
+		6D16263A23B9E41A007043A9 /* LYPersonalController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYPersonalController.swift; sourceTree = "<group>"; };
+		6D16263D23B9E47F007043A9 /* LYPersonalInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYPersonalInfoCell.swift; sourceTree = "<group>"; };
+		6D16263E23B9E47F007043A9 /* LYPersonalInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYPersonalInfoCell.xib; sourceTree = "<group>"; };
+		6D16264123B9E700007043A9 /* LYPersonalItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYPersonalItemCell.swift; sourceTree = "<group>"; };
+		6D16264223B9E700007043A9 /* LYPersonalItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYPersonalItemCell.xib; sourceTree = "<group>"; };
+		6D16264523B9EE9B007043A9 /* LYPersonalModifyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYPersonalModifyController.swift; sourceTree = "<group>"; };
+		6D16264723B9EFE5007043A9 /* LYPersonalCertificateUploadCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYPersonalCertificateUploadCell.swift; sourceTree = "<group>"; };
+		6D16264823B9EFE5007043A9 /* LYPersonalCertificateUploadCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYPersonalCertificateUploadCell.xib; sourceTree = "<group>"; };
+		6D32EC6823B600B300AAE1D3 /* LYExaminationPlanCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYExaminationPlanCell.swift; sourceTree = "<group>"; };
+		6D32EC6923B600B300AAE1D3 /* LYExaminationPlanCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYExaminationPlanCell.xib; sourceTree = "<group>"; };
+		6D32EC6C23B601F100AAE1D3 /* LYExaminationRegistrationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYExaminationRegistrationCell.swift; sourceTree = "<group>"; };
+		6D32EC6D23B601F100AAE1D3 /* LYExaminationRegistrationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYExaminationRegistrationCell.xib; sourceTree = "<group>"; };
+		6D32EC7223B6091800AAE1D3 /* LYNotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYNotificationController.swift; sourceTree = "<group>"; };
+		6D3AB31523B467C600964FB1 /* Appdelegate+Launch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Appdelegate+Launch.swift"; sourceTree = "<group>"; };
+		6D3AB31C23B4696500964FB1 /* LYTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYTabbarController.swift; sourceTree = "<group>"; };
+		6D3AB31E23B469CF00964FB1 /* LYLoginTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYLoginTool.swift; sourceTree = "<group>"; };
+		6D3AB32023B469ED00964FB1 /* LYLoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYLoginController.swift; sourceTree = "<group>"; };
+		6D3AB32123B469ED00964FB1 /* LYLoginController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYLoginController.xib; sourceTree = "<group>"; };
+		6D3AB32623B4850F00964FB1 /* LYLicenseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYLicenseController.swift; sourceTree = "<group>"; };
+		6D3AB32923B4854900964FB1 /* LYLicenseTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYLicenseTitleCell.swift; sourceTree = "<group>"; };
+		6D3AB32A23B4854900964FB1 /* LYLicenseTitleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYLicenseTitleCell.xib; sourceTree = "<group>"; };
+		6D48629924230970002FC696 /* LYAboutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYAboutController.swift; sourceTree = "<group>"; };
+		6D48629A24230970002FC696 /* LYAboutController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYAboutController.xib; sourceTree = "<group>"; };
+		6D48629D24230EBA002FC696 /* LYRegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYRegistrationView.swift; sourceTree = "<group>"; };
+		6D48629F24230EC3002FC696 /* LYRegistrationView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYRegistrationView.xib; sourceTree = "<group>"; };
+		6D4862A12423151B002FC696 /* LYExaminationSubjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYExaminationSubjectView.swift; sourceTree = "<group>"; };
+		6D4862A324231522002FC696 /* LYExaminationSubjectView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYExaminationSubjectView.xib; sourceTree = "<group>"; };
+		6D4862A72423203F002FC696 /* PickView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PickView.xib; sourceTree = "<group>"; };
+		6D4862A82423203F002FC696 /* PickView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickView.swift; sourceTree = "<group>"; };
+		6D4862AB24232350002FC696 /* LYExaminationSubjectCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYExaminationSubjectCell.swift; sourceTree = "<group>"; };
+		6D4862AC24232350002FC696 /* LYExaminationSubjectCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYExaminationSubjectCell.xib; sourceTree = "<group>"; };
+		6D5DF88A2419ED8A006A63A2 /* GalleryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GalleryView.h; sourceTree = "<group>"; };
+		6D5DF88B2419ED8A006A63A2 /* GalleryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalleryView.m; sourceTree = "<group>"; };
+		6D5DF88F2419EDDC006A63A2 /* ZoomScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoomScrollView.h; sourceTree = "<group>"; };
+		6D5DF8902419EDDC006A63A2 /* ZoomScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoomScrollView.m; sourceTree = "<group>"; };
+		6D6F880324175ACD009830E9 /* LYTrainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYTrainModel.swift; sourceTree = "<group>"; };
+		6D6F880624176FDF009830E9 /* LYExaminationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYExaminationViewModel.swift; sourceTree = "<group>"; };
+		6D6F88092417713D009830E9 /* LYExaminationPlanModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYExaminationPlanModel.swift; sourceTree = "<group>"; };
+		6D6F880C2418AFA0009830E9 /* LYNotificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYNotificationViewModel.swift; sourceTree = "<group>"; };
+		6D6F880F2418B0C9009830E9 /* LYNotificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYNotificationModel.swift; sourceTree = "<group>"; };
+		6D6F88122418B4E2009830E9 /* LYPersonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYPersonViewModel.swift; sourceTree = "<group>"; };
+		6D6F88152418B54E009830E9 /* LYPersonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYPersonModel.swift; sourceTree = "<group>"; };
+		6D6F88172418B9B2009830E9 /* LYExamModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYExamModel.swift; sourceTree = "<group>"; };
+		6D6F88192418BD42009830E9 /* LYDishonestysModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYDishonestysModel.swift; sourceTree = "<group>"; };
+		6DA05E3523BAF52200D4BF98 /* LYPermissionTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYPermissionTool.swift; sourceTree = "<group>"; };
+		6DA05E3A23BB00A100D4BF98 /* LYPersonalSubmitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYPersonalSubmitView.swift; sourceTree = "<group>"; };
+		6DA05E3C23BB00AD00D4BF98 /* LYPersonalSubmitView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYPersonalSubmitView.xib; sourceTree = "<group>"; };
+		6DA05E3E23BB242F00D4BF98 /* LYPersonalGradeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYPersonalGradeController.swift; sourceTree = "<group>"; };
+		6DA05E4023BB246800D4BF98 /* LYPersonalGradeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYPersonalGradeCell.swift; sourceTree = "<group>"; };
+		6DA05E4123BB246800D4BF98 /* LYPersonalGradeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYPersonalGradeCell.xib; sourceTree = "<group>"; };
+		6DA05E4423BB28CF00D4BF98 /* LYPersonalDishnoestyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYPersonalDishnoestyController.swift; sourceTree = "<group>"; };
+		6DA05E4623BB291A00D4BF98 /* LYPersonalDishonestyTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYPersonalDishonestyTitleCell.swift; sourceTree = "<group>"; };
+		6DA05E4723BB291A00D4BF98 /* LYPersonalDishonestyTitleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYPersonalDishonestyTitleCell.xib; sourceTree = "<group>"; };
+		6DA05E4A23BB2B4B00D4BF98 /* LYPersonalDishonestyInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYPersonalDishonestyInfoCell.swift; sourceTree = "<group>"; };
+		6DA05E4B23BB2B4B00D4BF98 /* LYPersonalDishonestyInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYPersonalDishonestyInfoCell.xib; sourceTree = "<group>"; };
+		6DA05E4E23BB2DD500D4BF98 /* LYPersonalDishonestyQRCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYPersonalDishonestyQRCell.swift; sourceTree = "<group>"; };
+		6DA05E4F23BB2DD500D4BF98 /* LYPersonalDishonestyQRCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYPersonalDishonestyQRCell.xib; sourceTree = "<group>"; };
+		6DD10DBB2415DA8C00C07717 /* LYLoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYLoginViewModel.swift; sourceTree = "<group>"; };
+		6DD10DC32415E83D00C07717 /* LYLicenseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYLicenseViewModel.swift; sourceTree = "<group>"; };
+		6DD10DC62415EC3300C07717 /* LYLicenseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYLicenseModel.swift; sourceTree = "<group>"; };
+		6DD10DCA2415F4DF00C07717 /* LYPlaneTypeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYPlaneTypeModel.swift; sourceTree = "<group>"; };
+		6DD10DCF241623DC00C07717 /* LYExperienceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYExperienceViewModel.swift; sourceTree = "<group>"; };
+		6DD10DD22416291C00C07717 /* LYMaintenanceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYMaintenanceModel.swift; sourceTree = "<group>"; };
+		6DDCBB3423AB6F11003ADD0E /* 维修人员执照.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "维修人员执照.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DDCBB3723AB6F11003ADD0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6DDCBB3C23AB6F11003ADD0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6DDCBB3E23AB6F12003ADD0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DDCBB4123AB6F12003ADD0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6DDCBB4323AB6F12003ADD0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DDCBB4823AB6F12003ADD0E /* CivilAviationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CivilAviationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DDCBB4C23AB6F12003ADD0E /* CivilAviationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CivilAviationTests.swift; sourceTree = "<group>"; };
+		6DDCBB4E23AB6F12003ADD0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DDCBB5323AB6F12003ADD0E /* CivilAviationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CivilAviationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DDCBB5723AB6F12003ADD0E /* CivilAviationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CivilAviationUITests.swift; sourceTree = "<group>"; };
+		6DDCBB5923AB6F12003ADD0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DF1C00A23B4AADB00C91D21 /* LYLicensePersonCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYLicensePersonCardCell.swift; sourceTree = "<group>"; };
+		6DF1C00B23B4AADB00C91D21 /* LYLicensePersonCardCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYLicensePersonCardCell.xib; sourceTree = "<group>"; };
+		6DF1C00F23B4B1A700C91D21 /* LYLicenseHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYLicenseHeaderView.swift; sourceTree = "<group>"; };
+		6DF1C01123B4B26E00C91D21 /* LYLicenseHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYLicenseHeaderView.xib; sourceTree = "<group>"; };
+		6DF1C01323B4B54700C91D21 /* LYLicenseTypeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYLicenseTypeCell.swift; sourceTree = "<group>"; };
+		6DF1C01423B4B54700C91D21 /* LYLicenseTypeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYLicenseTypeCell.xib; sourceTree = "<group>"; };
+		6DF1C01723B4B73E00C91D21 /* LYLicenseAircraftTypeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYLicenseAircraftTypeCell.swift; sourceTree = "<group>"; };
+		6DF1C01823B4B73E00C91D21 /* LYLicenseAircraftTypeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYLicenseAircraftTypeCell.xib; sourceTree = "<group>"; };
+		6DF1C01B23B4B8E700C91D21 /* LYAircraftTypeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYAircraftTypeController.swift; sourceTree = "<group>"; };
+		6DF1C01D23B4B93F00C91D21 /* LYAircaftTypeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYAircaftTypeCell.swift; sourceTree = "<group>"; };
+		6DF1C01E23B4B93F00C91D21 /* LYAircaftTypeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYAircaftTypeCell.xib; sourceTree = "<group>"; };
+		6DF1C02323B4BDA400C91D21 /* LYQRControlelr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYQRControlelr.swift; sourceTree = "<group>"; };
+		6DF1C02423B4BDA400C91D21 /* LYQRControlelr.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYQRControlelr.xib; sourceTree = "<group>"; };
+		6DF1C02B23B59EB600C91D21 /* LYExperienceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYExperienceController.swift; sourceTree = "<group>"; };
+		6DF1C02E23B59F5F00C91D21 /* LYExperienceSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYExperienceSelectView.swift; sourceTree = "<group>"; };
+		6DF1C03023B59F7200C91D21 /* LYExperienceSelectView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYExperienceSelectView.xib; sourceTree = "<group>"; };
+		6DF1C03323B5A32100C91D21 /* LYExperienceEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYExperienceEnum.swift; sourceTree = "<group>"; };
+		6DF1C03623B5B83600C91D21 /* LYExperienceMaintenanceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYExperienceMaintenanceCell.swift; sourceTree = "<group>"; };
+		6DF1C03723B5B83600C91D21 /* LYExperienceMaintenanceCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYExperienceMaintenanceCell.xib; sourceTree = "<group>"; };
+		6DF1C03A23B5BA4700C91D21 /* LYExperienceTrainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYExperienceTrainCell.swift; sourceTree = "<group>"; };
+		6DF1C03B23B5BA4700C91D21 /* LYExperienceTrainCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYExperienceTrainCell.xib; sourceTree = "<group>"; };
+		6DF1C04023B5E50A00C91D21 /* LYExaminationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYExaminationController.swift; sourceTree = "<group>"; };
+		6DF1C04323B5E6C200C91D21 /* LYExaminationSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYExaminationSelectView.swift; sourceTree = "<group>"; };
+		6DF1C04523B5E6D600C91D21 /* LYExaminationSelectView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYExaminationSelectView.xib; sourceTree = "<group>"; };
+		BEA31704CF11BC022EB8871E /* Pods-CivilAviation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CivilAviation.release.xcconfig"; path = "Target Support Files/Pods-CivilAviation/Pods-CivilAviation.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DDCBB3123AB6F11003ADD0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12D9898A51A3AB9C8F13D889 /* libPods-CivilAviation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DDCBB4523AB6F12003ADD0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DDCBB5023AB6F12003ADD0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D10AC1E23AB72AA00216D1E /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				6D10AC1F23AB72AA00216D1E /* LYNavigationController.swift */,
+				6D3AB31C23B4696500964FB1 /* LYTabbarController.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		6D10AC2123AB72E100216D1E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				6D10AC2223AB72E100216D1E /* BaseCollectionCell.swift */,
+				6D10AC2323AB72E100216D1E /* BaseViewModel.swift */,
+				6D10AC2423AB72E100216D1E /* BaseController.swift */,
+				6D10AC2623AB72E100216D1E /* BaseModel.swift */,
+				6D10AC2723AB72E100216D1E /* BaseFlowLayout.swift */,
+				6D10AC2823AB72E100216D1E /* BaseView.swift */,
+				6D10AC3023AB730C00216D1E /* BaseCell.swift */,
+				6D16262B23B9CD39007043A9 /* BaseSelectView.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		6D10AC3223AB734800216D1E /* Categary */ = {
+			isa = PBXGroup;
+			children = (
+				6D10AC3323AB734800216D1E /* UIFont+Extension.swift */,
+				6D10AC3423AB734800216D1E /* String+getFirstLetter.swift */,
+				6D10AC3523AB734800216D1E /* CALayer+XibConfiguration.swift */,
+				6D10AC3723AB734800216D1E /* UIImage+Compound.swift */,
+				6D10AC3823AB734800216D1E /* Array+Extrnsion.swift */,
+				6D10AC3B23AB734800216D1E /* String+Extension.swift */,
+				6D10AC3C23AB734800216D1E /* UIImage+Color.swift */,
+				6D10AC3E23AB734800216D1E /* Color-Extension.swift */,
+				6D10AC4023AB734800216D1E /* Data+MD5.swift */,
+				6D10AC4123AB734800216D1E /* UIImage+Orientation.h */,
+				6D10AC3A23AB734800216D1E /* UIImage+Orientation.m */,
+				6D3AB31523B467C600964FB1 /* Appdelegate+Launch.swift */,
+			);
+			path = Categary;
+			sourceTree = "<group>";
+		};
+		6D10AC5323AB740100216D1E /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				6D10AC5523AB740100216D1E /* Tool.swift */,
+				6D10AC5623AB740100216D1E /* Customs.swift */,
+				6D10AC5823AB740100216D1E /* VideoManager.swift */,
+				6D10AC5923AB740100216D1E /* HttpError.swift */,
+				6D10AC5A23AB740100216D1E /* DeviceTool.swift */,
+				6D10AC5C23AB740100216D1E /* AFHttpRequest.swift */,
+				6D10AC5D23AB740100216D1E /* CBToast.swift */,
+				6D10AC5423AB740100216D1E /* NetworkRequestErrorView.swift */,
+				6D10AC5B23AB740100216D1E /* NetworkRequestErrorView.xib */,
+				6DA05E3523BAF52200D4BF98 /* LYPermissionTool.swift */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		6D10AC6823AB748D00216D1E /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				6D10AC6923AB748D00216D1E /* Constant.swift */,
+				6D10AC6A23AB748D00216D1E /* EventConstant.swift */,
+				6D10AC6B23AB748D00216D1E /* String.swift */,
+				6D10AC6C23AB748D00216D1E /* KeyConstant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		6D16262623B9C8E0007043A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6D16262723B9C900007043A9 /* LYNotificationSelectView.swift */,
+				6D16262923B9C91F007043A9 /* LYNotificationSelectView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6D16262D23B9DFFF007043A9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				6D16262E23B9E015007043A9 /* LYNotificationCell.swift */,
+				6D16262F23B9E015007043A9 /* LYNotificationCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		6D16263823B9E3FD007043A9 /* Personal */ = {
+			isa = PBXGroup;
+			children = (
+				6D6F88142418B538009830E9 /* Model */,
+				6D6F88112418B4CC009830E9 /* ViewModel */,
+				6DA05E3923BB008700D4BF98 /* View */,
+				6D16263C23B9E46D007043A9 /* Cell */,
+				6D16263923B9E405007043A9 /* Controller */,
+			);
+			path = Personal;
+			sourceTree = "<group>";
+		};
+		6D16263923B9E405007043A9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6D16263A23B9E41A007043A9 /* LYPersonalController.swift */,
+				6D16264523B9EE9B007043A9 /* LYPersonalModifyController.swift */,
+				6DA05E3E23BB242F00D4BF98 /* LYPersonalGradeController.swift */,
+				6DA05E4423BB28CF00D4BF98 /* LYPersonalDishnoestyController.swift */,
+				6D48629924230970002FC696 /* LYAboutController.swift */,
+				6D48629A24230970002FC696 /* LYAboutController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6D16263C23B9E46D007043A9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				6D16263D23B9E47F007043A9 /* LYPersonalInfoCell.swift */,
+				6D16263E23B9E47F007043A9 /* LYPersonalInfoCell.xib */,
+				6D16264123B9E700007043A9 /* LYPersonalItemCell.swift */,
+				6D16264223B9E700007043A9 /* LYPersonalItemCell.xib */,
+				6D16264723B9EFE5007043A9 /* LYPersonalCertificateUploadCell.swift */,
+				6D16264823B9EFE5007043A9 /* LYPersonalCertificateUploadCell.xib */,
+				6DA05E4023BB246800D4BF98 /* LYPersonalGradeCell.swift */,
+				6DA05E4123BB246800D4BF98 /* LYPersonalGradeCell.xib */,
+				6DA05E4623BB291A00D4BF98 /* LYPersonalDishonestyTitleCell.swift */,
+				6DA05E4723BB291A00D4BF98 /* LYPersonalDishonestyTitleCell.xib */,
+				6DA05E4A23BB2B4B00D4BF98 /* LYPersonalDishonestyInfoCell.swift */,
+				6DA05E4B23BB2B4B00D4BF98 /* LYPersonalDishonestyInfoCell.xib */,
+				6DA05E4E23BB2DD500D4BF98 /* LYPersonalDishonestyQRCell.swift */,
+				6DA05E4F23BB2DD500D4BF98 /* LYPersonalDishonestyQRCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		6D32EC6723B6009600AAE1D3 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				6D32EC6823B600B300AAE1D3 /* LYExaminationPlanCell.swift */,
+				6D32EC6923B600B300AAE1D3 /* LYExaminationPlanCell.xib */,
+				6D32EC6C23B601F100AAE1D3 /* LYExaminationRegistrationCell.swift */,
+				6D32EC6D23B601F100AAE1D3 /* LYExaminationRegistrationCell.xib */,
+				6D4862AB24232350002FC696 /* LYExaminationSubjectCell.swift */,
+				6D4862AC24232350002FC696 /* LYExaminationSubjectCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		6D32EC7023B608E200AAE1D3 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				6D6F880E2418B0B5009830E9 /* Model */,
+				6D6F880B2418AF8B009830E9 /* ViewModel */,
+				6D16262D23B9DFFF007043A9 /* Cell */,
+				6D16262623B9C8E0007043A9 /* View */,
+				6D32EC7123B608F200AAE1D3 /* Controller */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		6D32EC7123B608F200AAE1D3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6D16263623B9E333007043A9 /* WebController.swift */,
+				6D32EC7223B6091800AAE1D3 /* LYNotificationController.swift */,
+				6D16263223B9E2D7007043A9 /* LYNotificationDetailController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6D3AB30F23B4672100964FB1 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				6DD10DBF2415DC7500C07717 /* User */,
+				6DD10DB72415DA5C00C07717 /* ViewModel */,
+				6D3AB31723B4681300964FB1 /* Tool */,
+				6D3AB31023B4672900964FB1 /* Controller */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		6D3AB31023B4672900964FB1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6D3AB32023B469ED00964FB1 /* LYLoginController.swift */,
+				6D3AB32123B469ED00964FB1 /* LYLoginController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6D3AB31723B4681300964FB1 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				6D3AB31E23B469CF00964FB1 /* LYLoginTool.swift */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		6D3AB32423B484DE00964FB1 /* License */ = {
+			isa = PBXGroup;
+			children = (
+				6DD10DC52415EC2100C07717 /* Model */,
+				6DD10DC22415E82E00C07717 /* ViewModel */,
+				6DF1C00E23B4B18A00C91D21 /* View */,
+				6D3AB32823B4853100964FB1 /* Cell */,
+				6D3AB32523B484E700964FB1 /* Controller */,
+			);
+			path = License;
+			sourceTree = "<group>";
+		};
+		6D3AB32523B484E700964FB1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6D3AB32623B4850F00964FB1 /* LYLicenseController.swift */,
+				6DF1C01B23B4B8E700C91D21 /* LYAircraftTypeController.swift */,
+				6DF1C02323B4BDA400C91D21 /* LYQRControlelr.swift */,
+				6DF1C02423B4BDA400C91D21 /* LYQRControlelr.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6D3AB32823B4853100964FB1 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				6D3AB32923B4854900964FB1 /* LYLicenseTitleCell.swift */,
+				6D3AB32A23B4854900964FB1 /* LYLicenseTitleCell.xib */,
+				6DF1C00A23B4AADB00C91D21 /* LYLicensePersonCardCell.swift */,
+				6DF1C00B23B4AADB00C91D21 /* LYLicensePersonCardCell.xib */,
+				6DF1C01323B4B54700C91D21 /* LYLicenseTypeCell.swift */,
+				6DF1C01423B4B54700C91D21 /* LYLicenseTypeCell.xib */,
+				6DF1C01723B4B73E00C91D21 /* LYLicenseAircraftTypeCell.swift */,
+				6DF1C01823B4B73E00C91D21 /* LYLicenseAircraftTypeCell.xib */,
+				6DF1C01D23B4B93F00C91D21 /* LYAircaftTypeCell.swift */,
+				6DF1C01E23B4B93F00C91D21 /* LYAircaftTypeCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		6D6F880524176FC3009830E9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6D6F880624176FDF009830E9 /* LYExaminationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6D6F88082417711F009830E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6D6F88092417713D009830E9 /* LYExaminationPlanModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6D6F880B2418AF8B009830E9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6D6F880C2418AFA0009830E9 /* LYNotificationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6D6F880E2418B0B5009830E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6D6F880F2418B0C9009830E9 /* LYNotificationModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6D6F88112418B4CC009830E9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6D6F88122418B4E2009830E9 /* LYPersonViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6D6F88142418B538009830E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6D6F88152418B54E009830E9 /* LYPersonModel.swift */,
+				6D6F88172418B9B2009830E9 /* LYExamModel.swift */,
+				6D6F88192418BD42009830E9 /* LYDishonestysModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6DA05E3923BB008700D4BF98 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6DA05E3A23BB00A100D4BF98 /* LYPersonalSubmitView.swift */,
+				6DA05E3C23BB00AD00D4BF98 /* LYPersonalSubmitView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6DD10DB72415DA5C00C07717 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6DD10DBB2415DA8C00C07717 /* LYLoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6DD10DBF2415DC7500C07717 /* User */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		6DD10DC22415E82E00C07717 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6DD10DC32415E83D00C07717 /* LYLicenseViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6DD10DC52415EC2100C07717 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6DD10DC62415EC3300C07717 /* LYLicenseModel.swift */,
+				6DD10DCA2415F4DF00C07717 /* LYPlaneTypeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6DD10DCE24161EB900C07717 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6DD10DCF241623DC00C07717 /* LYExperienceViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6DD10DD1241628F200C07717 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6DD10DD22416291C00C07717 /* LYMaintenanceModel.swift */,
+				6D6F880324175ACD009830E9 /* LYTrainModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6DDCBB2B23AB6F11003ADD0E = {
+			isa = PBXGroup;
+			children = (
+				6DDCBB3623AB6F11003ADD0E /* CivilAviation */,
+				6DDCBB4B23AB6F12003ADD0E /* CivilAviationTests */,
+				6DDCBB5623AB6F12003ADD0E /* CivilAviationUITests */,
+				6DDCBB3523AB6F11003ADD0E /* Products */,
+				E7E652F729628B5DA8203B33 /* Pods */,
+				BE55F0BBD08A0FF53BCECCE1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6DDCBB3523AB6F11003ADD0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DDCBB3423AB6F11003ADD0E /* 维修人员执照.app */,
+				6DDCBB4823AB6F12003ADD0E /* CivilAviationTests.xctest */,
+				6DDCBB5323AB6F12003ADD0E /* CivilAviationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DDCBB3623AB6F11003ADD0E /* CivilAviation */ = {
+			isa = PBXGroup;
+			children = (
+				6D16263823B9E3FD007043A9 /* Personal */,
+				6D32EC7023B608E200AAE1D3 /* Notification */,
+				6DF1C03E23B5E4D600C91D21 /* Examination */,
+				6DF1C02923B5970800C91D21 /* Experience */,
+				6D3AB32423B484DE00964FB1 /* License */,
+				6D3AB30F23B4672100964FB1 /* Login */,
+				6D10AC6823AB748D00216D1E /* Constant */,
+				6D10AC5323AB740100216D1E /* Tool */,
+				6D10AC3223AB734800216D1E /* Categary */,
+				6D10AC2123AB72E100216D1E /* Base */,
+				6D10AC1E23AB72AA00216D1E /* Tabbar */,
+				6DDCBB3723AB6F11003ADD0E /* AppDelegate.swift */,
+				6D10AC7C23AB761600216D1E /* CivilAviation-Bridging-Header.h */,
+				6DDCBB3B23AB6F11003ADD0E /* Main.storyboard */,
+				6DDCBB3E23AB6F12003ADD0E /* Assets.xcassets */,
+				6DDCBB4023AB6F12003ADD0E /* LaunchScreen.storyboard */,
+				6DDCBB4323AB6F12003ADD0E /* Info.plist */,
+			);
+			path = CivilAviation;
+			sourceTree = "<group>";
+		};
+		6DDCBB4B23AB6F12003ADD0E /* CivilAviationTests */ = {
+			isa = PBXGroup;
+			children = (
+				6DDCBB4C23AB6F12003ADD0E /* CivilAviationTests.swift */,
+				6DDCBB4E23AB6F12003ADD0E /* Info.plist */,
+			);
+			path = CivilAviationTests;
+			sourceTree = "<group>";
+		};
+		6DDCBB5623AB6F12003ADD0E /* CivilAviationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6DDCBB5723AB6F12003ADD0E /* CivilAviationUITests.swift */,
+				6DDCBB5923AB6F12003ADD0E /* Info.plist */,
+			);
+			path = CivilAviationUITests;
+			sourceTree = "<group>";
+		};
+		6DF1C00E23B4B18A00C91D21 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6DF1C00F23B4B1A700C91D21 /* LYLicenseHeaderView.swift */,
+				6DF1C01123B4B26E00C91D21 /* LYLicenseHeaderView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6DF1C02923B5970800C91D21 /* Experience */ = {
+			isa = PBXGroup;
+			children = (
+				6DD10DD1241628F200C07717 /* Model */,
+				6DD10DCE24161EB900C07717 /* ViewModel */,
+				6DF1C03523B5B81800C91D21 /* Cell */,
+				6DF1C03223B5A30F00C91D21 /* Enum */,
+				6DF1C02D23B59EC000C91D21 /* View */,
+				6DF1C02A23B59E4F00C91D21 /* Controller */,
+			);
+			path = Experience;
+			sourceTree = "<group>";
+		};
+		6DF1C02A23B59E4F00C91D21 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6DF1C02B23B59EB600C91D21 /* LYExperienceController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6DF1C02D23B59EC000C91D21 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6D5DF88A2419ED8A006A63A2 /* GalleryView.h */,
+				6D5DF88F2419EDDC006A63A2 /* ZoomScrollView.h */,
+				6D5DF8902419EDDC006A63A2 /* ZoomScrollView.m */,
+				6D5DF88B2419ED8A006A63A2 /* GalleryView.m */,
+				6DF1C02E23B59F5F00C91D21 /* LYExperienceSelectView.swift */,
+				6DF1C03023B59F7200C91D21 /* LYExperienceSelectView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6DF1C03223B5A30F00C91D21 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				6DF1C03323B5A32100C91D21 /* LYExperienceEnum.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		6DF1C03523B5B81800C91D21 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				6DF1C03623B5B83600C91D21 /* LYExperienceMaintenanceCell.swift */,
+				6DF1C03723B5B83600C91D21 /* LYExperienceMaintenanceCell.xib */,
+				6DF1C03A23B5BA4700C91D21 /* LYExperienceTrainCell.swift */,
+				6DF1C03B23B5BA4700C91D21 /* LYExperienceTrainCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		6DF1C03E23B5E4D600C91D21 /* Examination */ = {
+			isa = PBXGroup;
+			children = (
+				6D6F88082417711F009830E9 /* Model */,
+				6D6F880524176FC3009830E9 /* ViewModel */,
+				6D32EC6723B6009600AAE1D3 /* Cell */,
+				6DF1C04223B5E69C00C91D21 /* View */,
+				6DF1C03F23B5E4E000C91D21 /* Controller */,
+			);
+			path = Examination;
+			sourceTree = "<group>";
+		};
+		6DF1C03F23B5E4E000C91D21 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6DF1C04023B5E50A00C91D21 /* LYExaminationController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6DF1C04223B5E69C00C91D21 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6D4862A82423203F002FC696 /* PickView.swift */,
+				6D4862A72423203F002FC696 /* PickView.xib */,
+				6DF1C04323B5E6C200C91D21 /* LYExaminationSelectView.swift */,
+				6DF1C04523B5E6D600C91D21 /* LYExaminationSelectView.xib */,
+				6D48629D24230EBA002FC696 /* LYRegistrationView.swift */,
+				6D48629F24230EC3002FC696 /* LYRegistrationView.xib */,
+				6D4862A12423151B002FC696 /* LYExaminationSubjectView.swift */,
+				6D4862A324231522002FC696 /* LYExaminationSubjectView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BE55F0BBD08A0FF53BCECCE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09E2E5EF69598A80D4A647E9 /* libPods-CivilAviation.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7E652F729628B5DA8203B33 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C546035BE4D31C1C8BD6D8C /* Pods-CivilAviation.debug.xcconfig */,
+				BEA31704CF11BC022EB8871E /* Pods-CivilAviation.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DDCBB3323AB6F11003ADD0E /* CivilAviation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DDCBB5C23AB6F12003ADD0E /* Build configuration list for PBXNativeTarget "CivilAviation" */;
+			buildPhases = (
+				F5C5793B13B9CEB12C3FF0C2 /* [CP] Check Pods Manifest.lock */,
+				6DDCBB3023AB6F11003ADD0E /* Sources */,
+				6DDCBB3123AB6F11003ADD0E /* Frameworks */,
+				6DDCBB3223AB6F11003ADD0E /* Resources */,
+				A21F329295E5AEE3100BCA65 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CivilAviation;
+			productName = CivilAviation;
+			productReference = 6DDCBB3423AB6F11003ADD0E /* 维修人员执照.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6DDCBB4723AB6F12003ADD0E /* CivilAviationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DDCBB5F23AB6F12003ADD0E /* Build configuration list for PBXNativeTarget "CivilAviationTests" */;
+			buildPhases = (
+				6DDCBB4423AB6F12003ADD0E /* Sources */,
+				6DDCBB4523AB6F12003ADD0E /* Frameworks */,
+				6DDCBB4623AB6F12003ADD0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DDCBB4A23AB6F12003ADD0E /* PBXTargetDependency */,
+			);
+			name = CivilAviationTests;
+			productName = CivilAviationTests;
+			productReference = 6DDCBB4823AB6F12003ADD0E /* CivilAviationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6DDCBB5223AB6F12003ADD0E /* CivilAviationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DDCBB6223AB6F12003ADD0E /* Build configuration list for PBXNativeTarget "CivilAviationUITests" */;
+			buildPhases = (
+				6DDCBB4F23AB6F12003ADD0E /* Sources */,
+				6DDCBB5023AB6F12003ADD0E /* Frameworks */,
+				6DDCBB5123AB6F12003ADD0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DDCBB5523AB6F12003ADD0E /* PBXTargetDependency */,
+			);
+			name = CivilAviationUITests;
+			productName = CivilAviationUITests;
+			productReference = 6DDCBB5323AB6F12003ADD0E /* CivilAviationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DDCBB2C23AB6F11003ADD0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = LiuYang;
+				TargetAttributes = {
+					6DDCBB3323AB6F11003ADD0E = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					6DDCBB4723AB6F12003ADD0E = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 6DDCBB3323AB6F11003ADD0E;
+					};
+					6DDCBB5223AB6F12003ADD0E = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 6DDCBB3323AB6F11003ADD0E;
+					};
+				};
+			};
+			buildConfigurationList = 6DDCBB2F23AB6F11003ADD0E /* Build configuration list for PBXProject "CivilAviation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DDCBB2B23AB6F11003ADD0E;
+			productRefGroup = 6DDCBB3523AB6F11003ADD0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DDCBB3323AB6F11003ADD0E /* CivilAviation */,
+				6DDCBB4723AB6F12003ADD0E /* CivilAviationTests */,
+				6DDCBB5223AB6F12003ADD0E /* CivilAviationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DDCBB3223AB6F11003ADD0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D4862A024230EC3002FC696 /* LYRegistrationView.xib in Resources */,
+				6DF1C01623B4B54700C91D21 /* LYLicenseTypeCell.xib in Resources */,
+				6DA05E5123BB2DD500D4BF98 /* LYPersonalDishonestyQRCell.xib in Resources */,
+				6DA05E3D23BB00AD00D4BF98 /* LYPersonalSubmitView.xib in Resources */,
+				6D10AC6523AB740200216D1E /* NetworkRequestErrorView.xib in Resources */,
+				6DF1C03923B5B83600C91D21 /* LYExperienceMaintenanceCell.xib in Resources */,
+				6DDCBB4223AB6F12003ADD0E /* LaunchScreen.storyboard in Resources */,
+				6DF1C00D23B4AADB00C91D21 /* LYLicensePersonCardCell.xib in Resources */,
+				6DF1C01A23B4B73E00C91D21 /* LYLicenseAircraftTypeCell.xib in Resources */,
+				6DDCBB3F23AB6F12003ADD0E /* Assets.xcassets in Resources */,
+				6DF1C03123B59F7200C91D21 /* LYExperienceSelectView.xib in Resources */,
+				6DF1C01223B4B26E00C91D21 /* LYLicenseHeaderView.xib in Resources */,
+				6DA05E4D23BB2B4B00D4BF98 /* LYPersonalDishonestyInfoCell.xib in Resources */,
+				6D16264423B9E700007043A9 /* LYPersonalItemCell.xib in Resources */,
+				6D48629C24230970002FC696 /* LYAboutController.xib in Resources */,
+				6D4862A424231522002FC696 /* LYExaminationSubjectView.xib in Resources */,
+				6DA05E4323BB246800D4BF98 /* LYPersonalGradeCell.xib in Resources */,
+				6D16264A23B9EFE5007043A9 /* LYPersonalCertificateUploadCell.xib in Resources */,
+				6DA05E4923BB291A00D4BF98 /* LYPersonalDishonestyTitleCell.xib in Resources */,
+				6DF1C04623B5E6D600C91D21 /* LYExaminationSelectView.xib in Resources */,
+				6D16262A23B9C91F007043A9 /* LYNotificationSelectView.xib in Resources */,
+				6D16264023B9E47F007043A9 /* LYPersonalInfoCell.xib in Resources */,
+				6D16263123B9E015007043A9 /* LYNotificationCell.xib in Resources */,
+				6D32EC6B23B600B300AAE1D3 /* LYExaminationPlanCell.xib in Resources */,
+				6D3AB32C23B4854900964FB1 /* LYLicenseTitleCell.xib in Resources */,
+				6DDCBB3D23AB6F11003ADD0E /* Main.storyboard in Resources */,
+				6D3AB32323B469ED00964FB1 /* LYLoginController.xib in Resources */,
+				6DF1C03D23B5BA4700C91D21 /* LYExperienceTrainCell.xib in Resources */,
+				6DF1C02023B4B93F00C91D21 /* LYAircaftTypeCell.xib in Resources */,
+				6D4862AE24232350002FC696 /* LYExaminationSubjectCell.xib in Resources */,
+				6DF1C02623B4BDA400C91D21 /* LYQRControlelr.xib in Resources */,
+				6D32EC6F23B601F100AAE1D3 /* LYExaminationRegistrationCell.xib in Resources */,
+				6D4862A92423203F002FC696 /* PickView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DDCBB4623AB6F12003ADD0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DDCBB5123AB6F12003ADD0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A21F329295E5AEE3100BCA65 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CivilAviation/Pods-CivilAviation-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CivilAviation/Pods-CivilAviation-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CivilAviation/Pods-CivilAviation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5C5793B13B9CEB12C3FF0C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CivilAviation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DDCBB3023AB6F11003ADD0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D10AC4B23AB734800216D1E /* UIImage+Orientation.m in Sources */,
+				6D10AC2A23AB72E100216D1E /* BaseViewModel.swift in Sources */,
+				6DA05E3F23BB242F00D4BF98 /* LYPersonalGradeController.swift in Sources */,
+				6DD10DC42415E83D00C07717 /* LYLicenseViewModel.swift in Sources */,
+				6D10AC5F23AB740200216D1E /* Tool.swift in Sources */,
+				6D48629E24230EBA002FC696 /* LYRegistrationView.swift in Sources */,
+				6D4862A22423151B002FC696 /* LYExaminationSubjectView.swift in Sources */,
+				6DA05E4223BB246800D4BF98 /* LYPersonalGradeCell.swift in Sources */,
+				6DD10DD0241623DC00C07717 /* LYExperienceViewModel.swift in Sources */,
+				6D3AB32B23B4854900964FB1 /* LYLicenseTitleCell.swift in Sources */,
+				6DD10DD32416291C00C07717 /* LYMaintenanceModel.swift in Sources */,
+				6DF1C03823B5B83600C91D21 /* LYExperienceMaintenanceCell.swift in Sources */,
+				6D6F88132418B4E2009830E9 /* LYPersonViewModel.swift in Sources */,
+				6DF1C02C23B59EB600C91D21 /* LYExperienceController.swift in Sources */,
+				6D10AC4C23AB734800216D1E /* String+Extension.swift in Sources */,
+				6D3AB31623B467C600964FB1 /* Appdelegate+Launch.swift in Sources */,
+				6D10AC5123AB734800216D1E /* Data+MD5.swift in Sources */,
+				6D10AC4823AB734800216D1E /* UIImage+Compound.swift in Sources */,
+				6D10AC6023AB740200216D1E /* Customs.swift in Sources */,
+				6D10AC6723AB740200216D1E /* CBToast.swift in Sources */,
+				6D10AC6623AB740200216D1E /* AFHttpRequest.swift in Sources */,
+				6D5DF88C2419ED8A006A63A2 /* GalleryView.m in Sources */,
+				6D10AC6323AB740200216D1E /* HttpError.swift in Sources */,
+				6D6F881A2418BD42009830E9 /* LYDishonestysModel.swift in Sources */,
+				6D16263323B9E2D7007043A9 /* LYNotificationDetailController.swift in Sources */,
+				6DF1C01923B4B73E00C91D21 /* LYLicenseAircraftTypeCell.swift in Sources */,
+				6D10AC6F23AB748D00216D1E /* String.swift in Sources */,
+				6DA05E4C23BB2B4B00D4BF98 /* LYPersonalDishonestyInfoCell.swift in Sources */,
+				6D16264923B9EFE5007043A9 /* LYPersonalCertificateUploadCell.swift in Sources */,
+				6D16263F23B9E47F007043A9 /* LYPersonalInfoCell.swift in Sources */,
+				6D16263023B9E015007043A9 /* LYNotificationCell.swift in Sources */,
+				6D16262823B9C900007043A9 /* LYNotificationSelectView.swift in Sources */,
+				6DD10DCB2415F4DF00C07717 /* LYPlaneTypeModel.swift in Sources */,
+				6D6F880D2418AFA0009830E9 /* LYNotificationViewModel.swift in Sources */,
+				6DF1C01C23B4B8E700C91D21 /* LYAircraftTypeController.swift in Sources */,
+				6D6F880424175ACD009830E9 /* LYTrainModel.swift in Sources */,
+				6D10AC2E23AB72E100216D1E /* BaseFlowLayout.swift in Sources */,
+				6DA05E3B23BB00A100D4BF98 /* LYPersonalSubmitView.swift in Sources */,
+				6D6F88102418B0C9009830E9 /* LYNotificationModel.swift in Sources */,
+				6D10AC4923AB734800216D1E /* Array+Extrnsion.swift in Sources */,
+				6D3AB31D23B4696500964FB1 /* LYTabbarController.swift in Sources */,
+				6DDCBB3823AB6F11003ADD0E /* AppDelegate.swift in Sources */,
+				6D10AC2923AB72E100216D1E /* BaseCollectionCell.swift in Sources */,
+				6D3AB32223B469ED00964FB1 /* LYLoginController.swift in Sources */,
+				6D3AB31F23B469CF00964FB1 /* LYLoginTool.swift in Sources */,
+				6D6F880A2417713D009830E9 /* LYExaminationPlanModel.swift in Sources */,
+				6DA05E3623BAF52200D4BF98 /* LYPermissionTool.swift in Sources */,
+				6D4862AD24232350002FC696 /* LYExaminationSubjectCell.swift in Sources */,
+				6DF1C04123B5E50A00C91D21 /* LYExaminationController.swift in Sources */,
+				6D16264323B9E700007043A9 /* LYPersonalItemCell.swift in Sources */,
+				6DF1C01523B4B54700C91D21 /* LYLicenseTypeCell.swift in Sources */,
+				6D10AC2B23AB72E100216D1E /* BaseController.swift in Sources */,
+				6DF1C04423B5E6C200C91D21 /* LYExaminationSelectView.swift in Sources */,
+				6D5DF8912419EDDC006A63A2 /* ZoomScrollView.m in Sources */,
+				6DF1C02F23B59F5F00C91D21 /* LYExperienceSelectView.swift in Sources */,
+				6D3AB32723B4850F00964FB1 /* LYLicenseController.swift in Sources */,
+				6D10AC2F23AB72E100216D1E /* BaseView.swift in Sources */,
+				6DA05E5023BB2DD500D4BF98 /* LYPersonalDishonestyQRCell.swift in Sources */,
+				6D32EC6A23B600B300AAE1D3 /* LYExaminationPlanCell.swift in Sources */,
+				6DF1C00C23B4AADB00C91D21 /* LYLicensePersonCardCell.swift in Sources */,
+				6DF1C02523B4BDA400C91D21 /* LYQRControlelr.swift in Sources */,
+				6D10AC6D23AB748D00216D1E /* Constant.swift in Sources */,
+				6DF1C03423B5A32100C91D21 /* LYExperienceEnum.swift in Sources */,
+				6D16262C23B9CD39007043A9 /* BaseSelectView.swift in Sources */,
+				6D10AC6423AB740200216D1E /* DeviceTool.swift in Sources */,
+				6DA05E4523BB28CF00D4BF98 /* LYPersonalDishnoestyController.swift in Sources */,
+				6D6F880724176FDF009830E9 /* LYExaminationViewModel.swift in Sources */,
+				6DF1C01023B4B1A700C91D21 /* LYLicenseHeaderView.swift in Sources */,
+				6D10AC2D23AB72E100216D1E /* BaseModel.swift in Sources */,
+				6D6F88162418B54E009830E9 /* LYPersonModel.swift in Sources */,
+				6D32EC6E23B601F100AAE1D3 /* LYExaminationRegistrationCell.swift in Sources */,
+				6D10AC4523AB734800216D1E /* String+getFirstLetter.swift in Sources */,
+				6D16263723B9E333007043A9 /* WebController.swift in Sources */,
+				6DF1C03C23B5BA4700C91D21 /* LYExperienceTrainCell.swift in Sources */,
+				6D16264623B9EE9B007043A9 /* LYPersonalModifyController.swift in Sources */,
+				6D10AC4F23AB734800216D1E /* Color-Extension.swift in Sources */,
+				6DA05E4823BB291A00D4BF98 /* LYPersonalDishonestyTitleCell.swift in Sources */,
+				6D10AC6223AB740200216D1E /* VideoManager.swift in Sources */,
+				6D10AC3123AB730C00216D1E /* BaseCell.swift in Sources */,
+				6D48629B24230970002FC696 /* LYAboutController.swift in Sources */,
+				6D16263B23B9E41A007043A9 /* LYPersonalController.swift in Sources */,
+				6D10AC6E23AB748D00216D1E /* EventConstant.swift in Sources */,
+				6DD10DC72415EC3300C07717 /* LYLicenseModel.swift in Sources */,
+				6D10AC2023AB72AA00216D1E /* LYNavigationController.swift in Sources */,
+				6D6F88182418B9B2009830E9 /* LYExamModel.swift in Sources */,
+				6D32EC7323B6091800AAE1D3 /* LYNotificationController.swift in Sources */,
+				6D10AC4D23AB734800216D1E /* UIImage+Color.swift in Sources */,
+				6D10AC4623AB734800216D1E /* CALayer+XibConfiguration.swift in Sources */,
+				6D4862AA2423203F002FC696 /* PickView.swift in Sources */,
+				6DD10DBC2415DA8C00C07717 /* LYLoginViewModel.swift in Sources */,
+				6D10AC7023AB748D00216D1E /* KeyConstant.swift in Sources */,
+				6D10AC5E23AB740200216D1E /* NetworkRequestErrorView.swift in Sources */,
+				6DF1C01F23B4B93F00C91D21 /* LYAircaftTypeCell.swift in Sources */,
+				6D10AC4423AB734800216D1E /* UIFont+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DDCBB4423AB6F12003ADD0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DDCBB4D23AB6F12003ADD0E /* CivilAviationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DDCBB4F23AB6F12003ADD0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DDCBB5823AB6F12003ADD0E /* CivilAviationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6DDCBB4A23AB6F12003ADD0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DDCBB3323AB6F11003ADD0E /* CivilAviation */;
+			targetProxy = 6DDCBB4923AB6F12003ADD0E /* PBXContainerItemProxy */;
+		};
+		6DDCBB5523AB6F12003ADD0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DDCBB3323AB6F11003ADD0E /* CivilAviation */;
+			targetProxy = 6DDCBB5423AB6F12003ADD0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6DDCBB3B23AB6F11003ADD0E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DDCBB3C23AB6F11003ADD0E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6DDCBB4023AB6F12003ADD0E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DDCBB4123AB6F12003ADD0E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6DDCBB5A23AB6F12003ADD0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6DDCBB5B23AB6F12003ADD0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DDCBB5D23AB6F12003ADD0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C546035BE4D31C1C8BD6D8C /* Pods-CivilAviation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = 3MRF69MBF2;
+				INFOPLIST_FILE = CivilAviation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liuyang.CivilAviation;
+				PRODUCT_NAME = "维修电子执照R3";
+				PROVISIONING_PROFILE_SPECIFIER = CivilAviation_dis;
+				SWIFT_OBJC_BRIDGING_HEADER = "CivilAviation/CivilAviation-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6DDCBB5E23AB6F12003ADD0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEA31704CF11BC022EB8871E /* Pods-CivilAviation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = 3MRF69MBF2;
+				INFOPLIST_FILE = CivilAviation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liuyang.CivilAviation;
+				PRODUCT_NAME = "维修电子执照R3";
+				PROVISIONING_PROFILE_SPECIFIER = CivilAviation_dis;
+				SWIFT_OBJC_BRIDGING_HEADER = "CivilAviation/CivilAviation-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		6DDCBB6023AB6F12003ADD0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CivilAviationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liuyang.CivilAviationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CivilAviation.app/CivilAviation";
+			};
+			name = Debug;
+		};
+		6DDCBB6123AB6F12003ADD0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CivilAviationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liuyang.CivilAviationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CivilAviation.app/CivilAviation";
+			};
+			name = Release;
+		};
+		6DDCBB6323AB6F12003ADD0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CivilAviationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liuyang.CivilAviationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CivilAviation;
+			};
+			name = Debug;
+		};
+		6DDCBB6423AB6F12003ADD0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CivilAviationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liuyang.CivilAviationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CivilAviation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DDCBB2F23AB6F11003ADD0E /* Build configuration list for PBXProject "CivilAviation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DDCBB5A23AB6F12003ADD0E /* Debug */,
+				6DDCBB5B23AB6F12003ADD0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DDCBB5C23AB6F12003ADD0E /* Build configuration list for PBXNativeTarget "CivilAviation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DDCBB5D23AB6F12003ADD0E /* Debug */,
+				6DDCBB5E23AB6F12003ADD0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DDCBB5F23AB6F12003ADD0E /* Build configuration list for PBXNativeTarget "CivilAviationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DDCBB6023AB6F12003ADD0E /* Debug */,
+				6DDCBB6123AB6F12003ADD0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DDCBB6223AB6F12003ADD0E /* Build configuration list for PBXNativeTarget "CivilAviationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DDCBB6323AB6F12003ADD0E /* Debug */,
+				6DDCBB6423AB6F12003ADD0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DDCBB2C23AB6F11003ADD0E /* Project object */;
+}

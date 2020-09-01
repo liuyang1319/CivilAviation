@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="525" id="KGk-i7-Jjw" customClass="LYPersonalCertificateUploadCell" customModule="维修人员执照" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="411" height="525"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="411" height="525"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qDx-cq-9oW">
+                        <rect key="frame" x="16" y="0.0" width="379" height="525"/>
+                        <subviews>
+                            <button opaque="NO" tag="1231109" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r13-bM-JgW">
+                                <rect key="frame" x="79.5" y="20" width="220" height="140"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="220" id="m7d-NC-iXK"/>
+                                    <constraint firstAttribute="height" constant="140" id="xou-He-zsR"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="btnClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="0ud-ea-iku"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_personal_photo" translatesAutoresizingMaskIntoConstraints="NO" id="Jih-pN-2aJ">
+                                <rect key="frame" x="159.5" y="40" width="60" height="60"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="身份证正面照" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IdK-bR-LiZ">
+                                <rect key="frame" x="140.5" y="105" width="98" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="0.28235294117647058" green="0.49803921568627452" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Front photo of certifiate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bXA-ho-utQ">
+                                <rect key="frame" x="103.5" y="130" width="172.5" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="0.28235294119999998" green="0.49803921569999998" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" tag="1231109" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HmJ-1s-VEQ">
+                                <rect key="frame" x="79.5" y="175" width="220" height="140"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="220" id="U8t-h4-mz4"/>
+                                    <constraint firstAttribute="height" constant="140" id="zzX-3h-Htr"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="btnClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="uat-HG-pGd"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_personal_photo" translatesAutoresizingMaskIntoConstraints="NO" id="TJC-GD-nIU">
+                                <rect key="frame" x="159.5" y="195" width="60" height="60"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="身份证背面照" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kmw-DU-PcU">
+                                <rect key="frame" x="140.5" y="260" width="98" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="0.28235294119999998" green="0.49803921569999998" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Back photo of certifiate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5AU-7r-yRN">
+                                <rect key="frame" x="104.5" y="285" width="170" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="0.28235294119999998" green="0.49803921569999998" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" tag="1231110" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iux-lR-JSb">
+                                <rect key="frame" x="79.5" y="330" width="220" height="140"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="140" id="DNE-Fd-Zgd"/>
+                                    <constraint firstAttribute="width" constant="220" id="roy-ny-ffB"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="btnClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="xv3-rc-Wxr"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_personal_photo" translatesAutoresizingMaskIntoConstraints="NO" id="tsD-Sf-Csz">
+                                <rect key="frame" x="159.5" y="350" width="60" height="60"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="身份证手持照片" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zIa-Vz-hMx">
+                                <rect key="frame" x="132.5" y="415" width="114.5" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="0.28235294119999998" green="0.49803921569999998" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Certifiate holding photo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mUr-pA-e3A">
+                                <rect key="frame" x="103.5" y="440" width="172" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="0.28235294119999998" green="0.49803921569999998" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="bXA-ho-utQ" firstAttribute="top" secondItem="IdK-bR-LiZ" secondAttribute="bottom" constant="5" id="26r-gD-We6"/>
+                            <constraint firstItem="zIa-Vz-hMx" firstAttribute="top" secondItem="tsD-Sf-Csz" secondAttribute="bottom" constant="5" id="8IO-FG-gb5"/>
+                            <constraint firstItem="Jih-pN-2aJ" firstAttribute="top" secondItem="r13-bM-JgW" secondAttribute="top" constant="20" id="8st-Zb-m8c"/>
+                            <constraint firstItem="r13-bM-JgW" firstAttribute="centerX" secondItem="qDx-cq-9oW" secondAttribute="centerX" id="9nf-et-dz8"/>
+                            <constraint firstItem="Kmw-DU-PcU" firstAttribute="top" secondItem="TJC-GD-nIU" secondAttribute="bottom" constant="5" id="Bfd-DS-12D"/>
+                            <constraint firstItem="tsD-Sf-Csz" firstAttribute="centerX" secondItem="iux-lR-JSb" secondAttribute="centerX" id="DAq-Bc-bat"/>
+                            <constraint firstItem="bXA-ho-utQ" firstAttribute="centerX" secondItem="IdK-bR-LiZ" secondAttribute="centerX" id="Dei-IR-Ono"/>
+                            <constraint firstItem="TJC-GD-nIU" firstAttribute="top" secondItem="HmJ-1s-VEQ" secondAttribute="top" constant="20" id="MzP-kC-NWN"/>
+                            <constraint firstItem="IdK-bR-LiZ" firstAttribute="centerX" secondItem="Jih-pN-2aJ" secondAttribute="centerX" id="Vbp-M4-aN4"/>
+                            <constraint firstItem="iux-lR-JSb" firstAttribute="top" secondItem="HmJ-1s-VEQ" secondAttribute="bottom" constant="15" id="Wl1-Fk-9Ap"/>
+                            <constraint firstItem="r13-bM-JgW" firstAttribute="top" secondItem="qDx-cq-9oW" secondAttribute="top" constant="20" id="cnO-dB-uTT"/>
+                            <constraint firstItem="HmJ-1s-VEQ" firstAttribute="centerX" secondItem="r13-bM-JgW" secondAttribute="centerX" id="d8U-fc-GWc"/>
+                            <constraint firstItem="5AU-7r-yRN" firstAttribute="top" secondItem="Kmw-DU-PcU" secondAttribute="bottom" constant="5" id="eKe-Ks-UG9"/>
+                            <constraint firstItem="tsD-Sf-Csz" firstAttribute="top" secondItem="iux-lR-JSb" secondAttribute="top" constant="20" id="f2f-Iu-J96"/>
+                            <constraint firstItem="zIa-Vz-hMx" firstAttribute="centerX" secondItem="tsD-Sf-Csz" secondAttribute="centerX" id="fNr-Bb-Tvf"/>
+                            <constraint firstItem="IdK-bR-LiZ" firstAttribute="top" secondItem="Jih-pN-2aJ" secondAttribute="bottom" constant="5" id="ggb-wR-Zhv"/>
+                            <constraint firstItem="mUr-pA-e3A" firstAttribute="top" secondItem="zIa-Vz-hMx" secondAttribute="bottom" constant="5" id="i3o-tN-tyH"/>
+                            <constraint firstItem="Kmw-DU-PcU" firstAttribute="centerX" secondItem="TJC-GD-nIU" secondAttribute="centerX" id="jid-Uq-qpP"/>
+                            <constraint firstItem="HmJ-1s-VEQ" firstAttribute="top" secondItem="r13-bM-JgW" secondAttribute="bottom" constant="15" id="kqn-vm-IHX"/>
+                            <constraint firstItem="iux-lR-JSb" firstAttribute="centerX" secondItem="HmJ-1s-VEQ" secondAttribute="centerX" id="rND-9H-aB4"/>
+                            <constraint firstItem="mUr-pA-e3A" firstAttribute="centerX" secondItem="zIa-Vz-hMx" secondAttribute="centerX" id="roO-Bc-l2c"/>
+                            <constraint firstItem="TJC-GD-nIU" firstAttribute="centerX" secondItem="HmJ-1s-VEQ" secondAttribute="centerX" id="woe-5w-3h3"/>
+                            <constraint firstItem="5AU-7r-yRN" firstAttribute="centerX" secondItem="Kmw-DU-PcU" secondAttribute="centerX" id="z2B-RP-sbH"/>
+                            <constraint firstItem="Jih-pN-2aJ" firstAttribute="centerX" secondItem="qDx-cq-9oW" secondAttribute="centerX" id="zLg-7O-g3h"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="qDx-cq-9oW" secondAttribute="bottom" id="8fa-OZ-mgO"/>
+                    <constraint firstAttribute="trailing" secondItem="qDx-cq-9oW" secondAttribute="trailing" constant="16" id="LDk-b6-sx6"/>
+                    <constraint firstItem="qDx-cq-9oW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="pBq-nV-2Vb"/>
+                    <constraint firstItem="qDx-cq-9oW" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="tfF-4V-ePJ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="back" destination="HmJ-1s-VEQ" id="RHq-rG-SzS"/>
+                <outlet property="front" destination="r13-bM-JgW" id="lkr-wD-tPR"/>
+                <outlet property="hold" destination="iux-lR-JSb" id="8bl-C2-Hv9"/>
+            </connections>
+            <point key="canvasLocation" x="0.7246376811594204" y="278.90625"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon_personal_photo" width="60" height="60"/>
+    </resources>
+</document>
